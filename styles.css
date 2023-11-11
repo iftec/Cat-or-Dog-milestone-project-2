@@ -106,4 +106,16 @@ button {
 
 #dogButton:hover {
     background-color:  rgb(12, 112, 143);
-}   
+} 
+
+#scoreboard {
+    height: 150px;
+    font-size: large;
+    font-weight: 800;
+    background-color: rgb(183, 190, 194);
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+	margin-top: 5px;
+}

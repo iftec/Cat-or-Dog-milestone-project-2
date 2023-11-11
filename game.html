@@ -21,13 +21,26 @@
         <div>
 
         <p id="resultText"></p>
-</div>
+         </div>
         <button id="restartButton" style="display: none">Restart</button>
 
         <div id="scoreboard">
             <h2>Top 3 Scores</h2>
             <ol id="scoreList"></ol>
         </div>
+
+        <!-- modal popup for entering the user's name -->
+        <div id="nameModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button" id="closeModal">&times;</span>
+                <h3>Sorry wrong answer. 
+                    <br>Enter your name to save your Score or Restart Game</h3>
+                <input type="text" id="userName">
+                <button id="saveScoreButton">Save Score</button>
+                <button id="restartGameButton">Restart Game</button>
+            </div>
+        </div>
+    </div>
 
     <script src="/scripts/scripts.js"></script>   
 </body>
