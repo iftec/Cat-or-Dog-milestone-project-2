@@ -13,6 +13,7 @@ body {
     color: rgb(46, 147, 187);
 }
 h1 {
+    
     font-size: 50px;
     margin: 10px;
     padding: 10px 80px;
@@ -28,37 +29,28 @@ h2 {
 h3 {
     margin: 10px;
 }
-#container {
+#container,
+#containerWelcome {
     text-align: center;
     background-color: #fff;
-    padding: 40px;
+    padding: 40px; 
     border-radius: 10px;
     width: 700px;
     height: 90%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#containerWelcome {
-    text-align: center;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 10px;
-    width: 850px;
 
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-
-}
 img {
     max-width: 700px;
     max-height: 450px;
+}
+#resultText {
+    margin: 10px;
+    height: 60px;
 }
 .close-button {
     position: absolute;
@@ -113,12 +105,16 @@ button {
     font-size: large;
     font-weight: 800;
     background-color: rgb(183, 190, 194);
-    border-radius: 5px;
+    border-radius: 15px;
+    boarder-style: solid
+    boarder-color: rgb(12, 112, 143);
     padding: 5px;
-    width: 50%;
     text-align: center;
 	margin-top: 5px;
+   
+
 }
+
 
 .modal {
     display: none;
@@ -147,3 +143,6 @@ button {
     right: 10px;
     cursor: pointer;
 }
+.hidden {
+    display: none;
+    }
