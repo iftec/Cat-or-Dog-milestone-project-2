@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Cat or Dog? || The Game!</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Cat or Dog? || The Game!</title>
 </head>
+
 <body>
-    <div id="container">
-        <h1>Cat or Dog </h1>
-        <h3>Can you guess if the next image will be a cat or a dog?</h3>
-        <p id="scoreText">Score: 0</p>
 
-        <div>
-            <button id="catButton">Cat</button>
-            <button id="dogButton">Dog</button>
-        </div>
+ <div id="container">
 
-        <img id="animalImage" src="" alt="Animal Image">
-        <div>
+   <h1>Cat or Dog</h1>
 
-        <p id="resultText"></p>
-         </div>
-        <button id="restartButton" style="display: none">Restart</button>
+   <h3>Can you guess if the next image will be a cat or a dog?</h3>
 
-        <div id="scoreboard">
-            <h2>Top 3 Scores</h2>
-            <ol id="scoreList"></ol>
-        </div>
+   <p id="scoreText">Score: 0</p>
 
-        <!-- modal popup for entering the user's name -->
-        <div id="nameModal" class="modal">
-            <div class="modal-content">
-                <span class="close-button" id="closeModal">&times;</span>
-                <h3>Sorry wrong answer. 
-                    <br>Enter your name to save your Score or Restart Game</h3>
-                <input type="text" id="userName">
-                <button id="saveScoreButton">Save Score</button>
-                <button id="restartGameButton">Restart Game</button>
-            </div>
+   <div>
+     <button id="catButton">Cat</button>
+     <button id="dogButton">Dog</button>
+   </div>
+   <div id="imageContainer">
+   <img id="animalImage" src="" alt="Animal Image">
+   </div>
+   <div>
+     <p id="resultText"></p>
+   </div>
+
+   <button id="restartButton" style="display: none">Restart</button>
+
+   <div id="scoreboard">
+     <h2>Top 3 Scores</h2>
+     <ol id="scoreList"></ol>
+   </div>
+
+   <!-- modal popup for entering the user's name -->
+    <div id="nameModal" class="modal">
+        <div class="modal-content">
+        <span class="close-button" id="closeModal">&times;</span>
+    
+        <h3>Sorry wrong answer.  
+            <br>Enter your name to save your Score or Restart Game</h3>
+        <input type="text" id="userName">
+        <button id="saveScoreButton">Save Score</button>
+        <button id="restartGameButton">Restart Game</button>
         </div>
     </div>
-
-    <script src="/scripts/scripts.js"></script>   
-</body>
-</html>
+  
+  <script src="/scripts/scripts.js"></script>
+  </body>
+  </html>
+  
