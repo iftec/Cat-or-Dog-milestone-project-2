@@ -43,3 +43,20 @@ dogButton.addEventListener('click', () => makeGuess('dog'));
 restartButton.addEventListener('click', restartGame);
 saveScoreButton.addEventListener('click', saveUserScore);
 closeNameModal.addEventListener('click', closeModal);
+
+updateScoreboard();
+
+// Make guess function
+function makeGuess(guess) {
+  if (gameOver) {
+    return;
+  }
+
+  // Maths for random image
+  const randomIndex = Math.floor(Math.random() * images.length);
+  const randomImage = images[randomIndex];
+        animalImage.src = randomImage;
+  const isCat = randomImage.includes('cat');
+  const isDog = randomImage.includes('dog');
+ 
+}
