@@ -68,6 +68,17 @@ function makeGuess(guess) {
     gameOver = true;
     openModal();
   }
+
   scoreText.textContent = 'Score: ' + score;
- 
+}
+
+// Set restart game parameters
+function restartGame() {
+  score = 0;
+  scoreText.textContent = 'Score: 0';
+  gameOver = false;
+  restartButton.style.display = 'none';
+  resultText.textContent = '';
+  animalImage.src = "images/arrow_text1.jpg";
+
 }
