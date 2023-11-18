@@ -29,7 +29,22 @@ describe('restartGame', () => {
 
 });
 
+// score.test.js
 
+describe('saveScore', () => {
 
+  test('saves new score to localStorage', () => {
+    // Mock localStorage
+  });
+
+  test('sorts scores descending', () => {
+    // Mock scores array
+  });
+
+  test('limits scores array to 5 items', () => {
+    // Add more than 5 items
+  });
+
+});
 
 
