@@ -91,3 +91,22 @@ function openModal() {
 function closeModal() {
   nameModal.style.display = 'none'; 
 }
+
+// Score functions
+function saveUserScore() {
+  const playerName = userNameInput.value;
+  if (playerName) {
+    saveScore(playerName, score);
+    closeModal();
+    updateScoreboard();
+    restartGame();
+  }
+}
+
+function saveScore(playerName, playerScore) {
+  const scores = getTopScores();
+  scores.push({name: playerName, score: playerScore});
+  scores.sort((a, b) => b.score - a.score);
+  scores.splice(5);
+  localStorage.setItem('topScores', JSON.stringify(scores));
+}
