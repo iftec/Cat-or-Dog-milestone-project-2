@@ -136,3 +136,12 @@ function updateScoreboard() {
       scoreList.appendChild(listItem);
   });
 }
+
+module.exports = {
+  makeGuess,
+  restartGame,
+  saveScore,
+  getTopScores,
+  
+
+};
