@@ -36,3 +36,10 @@ const images = [
   'images/dog9.jpg',
   'images/dog10.jpg'
 ];
+
+// Add event listeners to buttons
+catButton.addEventListener('click', () => makeGuess('cat'));
+dogButton.addEventListener('click', () => makeGuess('dog'));
+restartButton.addEventListener('click', restartGame);
+saveScoreButton.addEventListener('click', saveUserScore);
+closeNameModal.addEventListener('click', closeModal);
