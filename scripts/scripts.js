@@ -82,3 +82,12 @@ function restartGame() {
   animalImage.src = "images/arrow_text1.jpg";
 
 }
+
+// Popup modal
+function openModal() {
+  nameModal.style.display = 'block';
+}
+
+function closeModal() {
+  nameModal.style.display = 'none'; 
+}
