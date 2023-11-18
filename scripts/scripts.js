@@ -122,5 +122,14 @@ function getTopScores() {
 scores.splice(3);
 
 return scores;
+}
 
+function updateScoreboard() {
+  const scores = getTopScores();
+  scoreList.innerHTML = '';
+  scores.forEach((entry, index) => {
+      const listItem = document.createElement('li' );
+      listItem.textContent =  `${entry.name}: ${entry.score}`;
+      scoreList.appendChild(listItem);
+  });
 }
