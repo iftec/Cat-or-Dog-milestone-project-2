@@ -43,7 +43,10 @@ dogButton.addEventListener('click', () => makeGuess('dog'));
 restartButton.addEventListener('click', restartGame);
 saveScoreButton.addEventListener('click', saveUserScore);
 closeNameModal.addEventListener('click', closeModal);
-
+restartGameButton.addEventListener('click', () => {
+  closeModal();
+  restartGame();
+});
 updateScoreboard();
 
 // Make guess function
