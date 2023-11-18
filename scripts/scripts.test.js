@@ -17,5 +17,19 @@ describe('makeGuess', () => {
 
 });
 
+describe('restartGame', () => {
+
+  test('resets score to 0', () => {
+    // Mock implementation
+  });
+
+  test('sets gameOver to false', () => {
+    // Mock implementation  
+  });
+
+});
+
+
+
 
 
