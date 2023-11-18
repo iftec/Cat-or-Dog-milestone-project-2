@@ -58,5 +58,16 @@ function makeGuess(guess) {
         animalImage.src = randomImage;
   const isCat = randomImage.includes('cat');
   const isDog = randomImage.includes('dog');
+
+  // Check if guess is correct
+  if ((isCat && guess === 'cat') || (isDog && guess === 'dog')) {
+    resultText.textContent = 'Correct! It\'s a ' + (isCat ? 'cat' : 'dog') + ', keep going!';
+    score++;
+  } else {
+    resultText.textContent = 'Wrong! It\'s a ' + (isCat ? 'cat' : 'dog') + '. Try again';
+    gameOver = true;
+    openModal();
+  }
+  scoreText.textContent = 'Score: ' + score;
  
 }
