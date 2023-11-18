@@ -110,3 +110,17 @@ function saveScore(playerName, playerScore) {
   scores.splice(5);
   localStorage.setItem('topScores', JSON.stringify(scores));
 }
+
+function getTopScores() {
+
+  // Get scores array
+  const scores = JSON.parse(localStorage.getItem('topScores')) || [];
+  
+  // Only keep top 3 scores
+  scores.sort
+((a, b) => b.score - a.score);
+scores.splice(3);
+
+return scores;
+
+}
