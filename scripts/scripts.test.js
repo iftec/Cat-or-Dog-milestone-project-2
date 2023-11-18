@@ -47,4 +47,20 @@ describe('saveScore', () => {
 
 });
 
+// highscores.test.js
 
+describe('getTopScores', () => {
+
+  test('gets scores from localStorage', () => {
+     // Mock localStorage  
+  });
+
+  test('sorts scores descending', () => {
+    // Pass in unsorted array
+  });
+
+  test('limits scores to top 3', () => {
+    // Pass in more than 3 scores
+  });
+
+});
