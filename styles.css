@@ -102,7 +102,7 @@ button {
 } 
 
 #scoreboard {
-    height: 20px;
+    height: 200px;
     font-size: 30px;
     font-weight: 800;
     background-color: rgb(12, 112, 143);
@@ -114,7 +114,8 @@ button {
 
 }
 #scoreText {
-  margin: 10px;  
+  margin: 10px; 
+  font-weight: bold; 
 }
 
 #scoreList {
@@ -144,6 +145,7 @@ button {
    
     border-radius: 5px;
     position: fixed;
+    top: 30%;
     left: 25%;
 }
 .close-button {
@@ -163,24 +165,24 @@ button {
         
         /*media queries below*/
         @media screen and (max-width: 860px) {
-            h3 {
-                display:flex;
-                margin: 10px;
-                font-size: 18px ;
-            }
+            
              }
         @media screen and (min-width: 1280px) {
             #container,
             #containerWelcome {
                  width: 850px;
             }
-            
-             }
+            h1 {
+                font-size: 80px;
+                padding: 10px 90px; 
+            }
                h3 {
                             display:flex;
+                            flex-direction: column;
                             margin: 10px;
-                            font-size: 18px ;
+                            font-size: 30px;
                         }
+                    }
         @media screen and (max-height: 829px) {
               h1 {
                 font-size: 30px;
@@ -217,20 +219,26 @@ button {
          @media screen and (max-width: 650px) {
                             #container,
                             #containerWelcome {
-                            font-size: 20px;
-                            max-width: 375px;
+                            font-size: 30px;
+                            max-width: 450px;
                             }
                             h1 {
                             
                                 padding: 10px 20px;
                             }
+                            h2 {
+                                font-size: 25px;
+                            }
                             h3 {
                                 display:flex;
                                 margin: 10px;
-                                font-size: 14px ;
+                                font-size: 30px ;
                             }
-                            #imageContainer {
-                               
+                            #scoreboard {
+                                height: 160px;
+                            }
+                            #scoreList {
+                                font-size: 20px;
                             }
                             img {
                                 max-width: 250px;
@@ -240,7 +248,7 @@ button {
              @media screen and (max-width: 490px) {
                             #container,
                             #containerWelcome {
-                            font-size: 20px;
+                            
                             max-width: 275px;
                             }
                              }
