@@ -26,6 +26,7 @@ h1 {
 
 h2 {
     margin: 10px;
+    color: #ffffff;
 }
 h3 {
     margin: 10px;
@@ -34,15 +35,14 @@ h3 {
 #containerWelcome {
     text-align: center;
     background-color: #fff;
-    padding: 40px; 
+    padding: 20px; 
     border-radius: 10px;
-    width: 700px;
-    height: 90%;
+    width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
 
 img {
@@ -51,7 +51,7 @@ img {
 }
 #resultText {
     margin: 10px;
-    height: 60px;
+    height: 40px;
 }
 .close-button {
     position: absolute;
@@ -102,10 +102,10 @@ button {
 } 
 
 #scoreboard {
-    height: 150px;
-    font-size: large;
+    height: 20px;
+    font-size: 30px;
     font-weight: 800;
-    background-color: rgb(215, 220, 223);
+    background-color: rgb(12, 112, 143);
    
     padding: 5px;
     text-align: center;
@@ -113,7 +113,17 @@ button {
    
 
 }
+#scoreText {
+  margin: 10px;  
+}
 
+#scoreList {
+    color: rgb(255, 255, 255);
+}
+
+#backTextColor{
+    background-color: rgb(12, 112, 143); ;
+}
 
 .modal {
     display: none;
@@ -156,6 +166,81 @@ button {
             h3 {
                 display:flex;
                 margin: 10px;
-                font-size: smaller;
+                font-size: 18px ;
             }
              }
+        @media screen and (min-width: 1280px) {
+            #container,
+            #containerWelcome {
+                 width: 850px;
+            }
+            
+             }
+               h3 {
+                            display:flex;
+                            margin: 10px;
+                            font-size: 18px ;
+                        }
+        @media screen and (max-height: 829px) {
+              h1 {
+                font-size: 30px;
+                padding: 10px 60px;
+            }
+            }
+        @media screen and (max-height: 753px) {
+              h1 {
+                font-size: 20px;
+                padding: 5px 60px;
+                    }
+                       }
+        @media screen and (max-width: 400px) {
+                        h3 {
+                            display:flex;
+                            margin: 10px;
+                            font-size: 14px ;
+                        }
+                        h1 {
+                            
+                            padding: 10px 30px;
+                        }
+                        #resultText {
+                            margin: 10px;
+                            height: 10px;
+                            font-size: 20px ;
+                        }
+                        #container,
+                        #containerWelcome {
+                        font-size: 20px;
+                        }
+
+                         }
+         @media screen and (max-width: 650px) {
+                            #container,
+                            #containerWelcome {
+                            font-size: 20px;
+                            max-width: 375px;
+                            }
+                            h1 {
+                            
+                                padding: 10px 20px;
+                            }
+                            h3 {
+                                display:flex;
+                                margin: 10px;
+                                font-size: 14px ;
+                            }
+                            #imageContainer {
+                               
+                            }
+                            img {
+                                max-width: 250px;
+                                
+                            }
+                             }
+             @media screen and (max-width: 490px) {
+                            #container,
+                            #containerWelcome {
+                            font-size: 20px;
+                            max-width: 275px;
+                            }
+                             }
