@@ -16,7 +16,6 @@ h1 {
     
     font-size: 50px;
     margin: 10px;
-    bottom-margin: 3px;
     padding: 10px 80px;
     border: 3px solid rgb(46, 147, 187);
     border-radius: 15px;
@@ -52,6 +51,8 @@ img {
 #resultText {
     margin: 10px;
     height: 40px;
+    font-weight: 800;
+    
 }
 .close-button {
     position: absolute;
