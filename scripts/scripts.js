@@ -158,11 +158,4 @@ if (isMobileDevice() && isLandscapeOrientation()) {
 }
 
 
-module.exports = {
-  makeGuess,
-  restartGame,
-  saveScore,
-  getTopScores,
-  
 
-};
