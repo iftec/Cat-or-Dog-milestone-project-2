@@ -137,6 +137,27 @@ function updateScoreboard() {
   });
 }
 
+// Function to check if the device is a mobile device
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Function to check if the device is in landscape mode
+function isLandscapeOrientation() {
+  return window.matchMedia("(orientation: landscape)").matches;
+}
+
+// Function to display a message prompting the user to rotate the screen
+function showRotateScreenMessage() {
+  alert("Please rotate your device to portrait mode.");
+}
+
+// Check if it's a mobile device and in landscape mode, then show the message
+if (isMobileDevice() && isLandscapeOrientation()) {
+  showRotateScreenMessage();
+}
+
+
 module.exports = {
   makeGuess,
   restartGame,
