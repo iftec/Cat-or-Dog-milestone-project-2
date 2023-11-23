@@ -57,7 +57,7 @@ h3 {
 
 /* Image styles */
 img {
-    max-width: 100%;
+    max-width: 55%;
     max-height: auto;
 }
 
@@ -242,6 +242,10 @@ button {
     #gameTitle{
         display: none;
     }
+    #scoreboard {
+        font-size: 20px;
+        
+    }
 }
 
 @media screen and (max-height: 800px) {
@@ -264,12 +268,4 @@ button {
         height: 75%;
         margin-top: 1%;
     }
-}
-@media screen and (max-height: 550px) {
-    #scoreboard {
-        height: 180px;
-        font-size: 20px;
-       
-    }
-    
 }
