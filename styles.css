@@ -88,6 +88,7 @@ button {
 #saveScoreButton,
 #restartGameButton {
     padding: 10px 40px;
+    background-color: rgb(145, 220, 243);
     border-color: rgb(46, 147, 187);
    
 }
