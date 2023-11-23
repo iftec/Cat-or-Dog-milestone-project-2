@@ -38,8 +38,16 @@ const images = [
 ];
 
 // Add event listeners to buttons
-catButton.addEventListener('click', () => makeGuess('cat'));
-dogButton.addEventListener('click', () => makeGuess('dog'));
+catButton.addEventListener('click', () => {
+  makeGuess('cat');
+  guessMade = true;
+  checkGuessMade();  
+});
+dogButton.addEventListener("click", () => {
+  makeGuess('dog');
+  guessMade = true;
+  checkGuessMade();  
+});
 restartButton.addEventListener('click', restartGame);
 saveScoreButton.addEventListener('click', saveUserScore);
 closeNameModal.addEventListener('click', closeModal);
@@ -83,6 +91,7 @@ function restartGame() {
   restartButton.style.display = 'none';
   resultText.textContent = '';
   animalImage.src = "images/arrow_text1.jpg";
+  document.getElementById("returnButton").style.display = "block";
 
 }
 
@@ -105,7 +114,7 @@ function saveUserScore() {
     restartGame();
   }
 }
-
+// Save score to local storage
 function saveScore(playerName, playerScore) {
   const scores = getTopScores();
   scores.push({name: playerName, score: playerScore});
@@ -126,7 +135,7 @@ scores.splice(3);
 
 return scores;
 }
-
+// Update scoreboard
 function updateScoreboard() {
   const scores = getTopScores();
   scoreList.innerHTML = '';
@@ -135,6 +144,16 @@ function updateScoreboard() {
       listItem.textContent =  `${entry.name}: ${entry.score}`;
       scoreList.appendChild(listItem);
   });
+}
+let guessMade = false;
+
+// Function to check if guess has been made and show or hide back button
+function checkGuessMade() {
+  if(!guessMade) {
+    document.getElementById("returnButton").style.display = "block";
+  } else {
+    document.getElementById("returnButton").style.display = "none"; 
+  }
 }
 
 // Function to check if the device is a mobile device
