@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     color: #333;
 }
 
@@ -42,7 +42,7 @@ h3 {
 #containerWelcome {
     text-align: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 18px;
     border-radius: 10px;
     width: 70%;
     height: 70%;
@@ -52,6 +52,7 @@ h3 {
     align-items: center;
     font-weight: 800;
     margin-top: 5%;
+    font-size: 30px;;
 }
 
 /* Image styles */
@@ -247,6 +248,15 @@ button {
     }
     h2 {
         font-size: 25px;
+ 
     }
+}
 
+@media screen and (max-height: 950px) {
+
+    #container,
+    #containerWelcome {
+        
+        margin-top: 1%;
+    }
 }
