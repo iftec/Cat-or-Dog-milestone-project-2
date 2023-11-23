@@ -182,11 +182,13 @@ button {
 }
 
 /* Media queries */
+
 @media screen and (max-width: 550px) {
     #container,
     #containerWelcome {
         margin-top: 25%;
         font-size: 20px;
+        width: 85%;;
     }
 
     h1 {
@@ -204,21 +206,25 @@ button {
         font-size: 16px;
     }
 
-    /* Adjustments for small screens */
     #userName {
         padding-top: 1px;
-        height: 40px;
+        height: 30px;
         margin-bottom: 5px;
         font-size: 14px;
     }
+    .modal-content {
+        width: 80%;
+       
+    }
+
 }
 
 @media screen and (max-width: 700px) {
     .modal-content {
         top: 5%;
-        width: 70%;
+        width: 80%;
         font-size: 20px;
-        left: 15%;
+        left: 10%;
     }
 
     h1 {
@@ -228,7 +234,7 @@ button {
 
 @media screen and (max-height: 800px) {
     .modal-content {
-        top: 5%;
+        top: 2%;
         width: 70%;
         font-size: 20px;
         left: 15%;
