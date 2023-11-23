@@ -238,6 +238,11 @@ button {
         font-size: 30px;
     }
 }
+@media screen and (max-height: 550px) {
+    #gameTitle{
+        display: none;
+    }
+}
 
 @media screen and (max-height: 800px) {
     .modal-content {
