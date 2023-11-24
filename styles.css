@@ -58,12 +58,11 @@ h3 {
 /* Image styles */
 img {
     max-width: 55%;
-    max-height: auto;
 }
 
 /* Result text styles */
 #resultText {
-    margin: 33px;
+    margin: 34px;
     font-weight: 800;
 }
 
@@ -84,7 +83,7 @@ button {
 #startGameButton,
 #catButton,
 #dogButton,
-#saveScoreButton,
+#saveScoreButton
 
  {
     padding: 10px 40px;
@@ -160,7 +159,7 @@ button:hover
     background-color: #fff;
     border-radius: 5px;
     position: fixed;
-    top: 30%;
+    top: 15%;
     left: 25%;
 }
 
@@ -273,4 +272,16 @@ button:hover
         height: 75%;
         margin-top: 1%;
     }
+}
+a {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 24px;
+    border: 1px solid rgb(46, 147, 187);
+     background-color: #e7e7e7;
+    border-radius: 5px;
+    color: #333;
+    outline: none;
+    cursor: pointer; 
+    text-decoration: none;
 }
