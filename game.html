@@ -5,7 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="styles.css">
  <title>Cat or Dog? || The Game!</title>
- <meta name="description" content="The cat and dog lovers game website, guess the next picture quiz, can you get on the top score list?, try now! " />
+ <meta name="description" content="The cat and dog lovers game website, guess the next picture quiz, can you get on the top score list?, try now! " >
 </head>
 
 <body onload= " closeModal(), restartGame()" >
@@ -23,21 +23,23 @@
      <button id="dogButton">Dog</button>
    </div>
    <div id="imageContainer">
-   <img id="animalImage" src="" alt="Animal Image">
+    <img id="animalImage" src="./images/dogsandcats1.jpeg" alt="Animal Image">
    </div>
-   <div id="returnButton" style="display:show;">
-    <a href="index.html"><button>Home</button> 
-      </a>
+   
+   <div id="returnButton" >
+    <br>
+    <a href="index.html">Home</a>
   </div>
-  
+
    <div>
      <p id="resultText"></p>
    </div>
+  
+
 
    <button id="restartButton" style="display: none">Restart</button>
 
   
-
    <!-- modal popup for entering the user's name -->
     <div id="nameModal" class="modal">
         <div class="modal-content">
@@ -52,6 +54,7 @@
             <ol id="scoreList"></ol>
           </div>
         </div>
+    </div>
     </div>
   
   <script src="./scripts/scripts.js"></script>
