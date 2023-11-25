@@ -62,7 +62,7 @@ img {
 
 /* Result text styles */
 #resultText {
-    margin: 34px;
+    margin: 56px;
     font-weight: 800;
 }
 
@@ -97,10 +97,31 @@ button {
     margin: 0%
 }
 
+#catButton:hover,
+#dogButton:hover,
+#saveScoreButton:hover {
+    background-color: #888585; 
+}
 
 button:hover 
  {
-    background-color: #7a7474;
+    background-color: #888585;
+}
+a {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 24px;
+    border: 1px solid rgb(46, 147, 187);
+     background-color: #e7e7e7;
+    border-radius: 5px;
+    color: #333;
+    outline: none;
+    cursor: pointer; 
+    text-decoration: none;
+}
+a:hover 
+ {
+    background-color: #888585;
 }
 
 /* Scoreboard styles */
@@ -132,6 +153,9 @@ button:hover
     border: 3px solid;
     border-color: rgb(46, 147, 187);
     border-radius: 15px;
+}
+#returnButton {
+    margin-bottom: 20px;
 }
 
 /* Container welcome specific style */
@@ -272,16 +296,4 @@ button:hover
         height: 75%;
         margin-top: 1%;
     }
-}
-a {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 24px;
-    border: 1px solid rgb(46, 147, 187);
-     background-color: #e7e7e7;
-    border-radius: 5px;
-    color: #333;
-    outline: none;
-    cursor: pointer; 
-    text-decoration: none;
 }
