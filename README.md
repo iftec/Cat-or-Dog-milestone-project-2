@@ -64,7 +64,8 @@ A back button to return to the home screen.
 * A screen to allow users to save their score, view the top 3 highest scores, and restart the game.
 
 ### **Wireframes**
-
+<p dir="auto">Cat or Dog? Wireframes
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/wireframe%20view.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/wireframe%20view.png?raw=true" alt="Logo" style="max-width: 100%;"></a></p>
 
 ### **Colour Scheme**
 To make it easy to see and stick with the animal theme, the game screen itself will be a white background with dark brown text characters.
