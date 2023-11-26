@@ -4,6 +4,7 @@
 
 ## **Site Overview**
 A simple but addictive guessing game for Cat and Dog lovers. Simply click on the button to start the game. You will be asked to guess if the next picture to be shown will be a Cat or Dog image. If you make a correct guess you score one point and you can continue the game. If you make an incorrect guess you have the option to enter your name and save your score or restart the game. The top 3 highest scores will be displayed on the high scores page.
+* [**View the live site here**](https://iftec.github.io/Cat-or-Dog-milestone-project-2/)
 
 # Table of contents 
 1. [**Site Overview**](#site-overview)
