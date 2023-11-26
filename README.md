@@ -1,6 +1,6 @@
-# **JavascriptGuessing Game**
+# **Javascript Guessing Game**
 
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true" alt="Logo" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
 ## **Site Overview**
 A simple but addictive guessing game for Cat and Dog lovers. Simply click on the button to start the game. You will be asked to guess if the next picture to be shown will be a Cat or Dog image. If you make a correct guess you score one point and you can continue the game. If you make an incorrect guess you have the option to enter your name and save your score or restart the game. The top 3 highest scores will be displayed on the high scores page.
@@ -11,7 +11,7 @@ A simple but addictive guessing game for Cat and Dog lovers. Simply click on the
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***How This Will Be Achieved***](#how-is-this-will-be-achieved)
+    * [***How This Will Be Achieved***](#how-this-will-be-achieved)
     * [***Wireframes***](#wireframes)
     * [***Colour Scheme***](#colour-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
@@ -29,8 +29,8 @@ A simple but addictive guessing game for Cat and Dog lovers. Simply click on the
 
 ## **(UX) User Experience**
 ### **Target Audiences:**
-* The target audience is anyone who is looking to pass a few minutes of time and play a simple game. Especially for Cat and Dog lovers!
-### **Creator stories:**
+* The target audience is anyone who is looking to pass a few minutes of time and forget about the stesses of life by playing a simple quiz game. Especially for Cat and Dog lovers!
+### **Creator Stories:**
 Creator Goals
 
 * As a creator, I want to make sure the project is easy to navigate.
@@ -60,37 +60,55 @@ As a user, I want to...
 The site will have a home screen with the following:
 * A simple set of instructions outlining the aim of the game.
 * A button to start the game
-A back button to return to the home screen.
+* A back button to return to the home screen.
 * A screen to allow users to save their score, view the top 3 highest scores, and restart the game.
 
 ### **Wireframes**
 <p dir="auto">Cat or Dog? Wireframes
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/wireframe%20view.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/wireframe%20view.jpg?raw=true" alt="Logo" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/wireframe-view.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/wireframe-view.jpg?raw=true" alt="wireframes" style="max-width: 100%;"></a></p>
 
 ### **Colour Scheme**
 To make it easy to see and stick with the animal theme, the game screen itself will be a white background with dark brown text characters.
 The predominant colors across the site will be off-white, dark brown, and blue with cats and dogs as a background.
 
 ### **Typography**
-
+* Google fonts Raleway
+* Sans-serif
+* The text will be consistent throughout the page and the content of the page  is centered. 
+* Responsive across all devices, to make images scale properly and not end up pixelated, text is readable on all devices.
 
 ### **Technologies Used**
 * HTML
 * CSS
 * Javascript
 
+## **Current Features Common to all pages**
+* Background image
+* Container
+* Heading
+* Colours 
 ## **Individual Page Content features**
 ## **Home Screen**
 * Logo heading along the top
 * Button for 'Start Game'
-* simple instructions 
+* Simple instructions 
+## **Game Screen**
+* Simple instructions
+* Picture of Cat and Dog looking at a laptop screen
+* Cat and Dog buttons for guessing
+* Home button
 
 ## **Testing Phase**
 ### **During Development Testing**
 
 
-### **Manual Testing:**
 
+### **Manual Testing:**
+Chrome Version 119.0.6045.160 (Official Build) (64-bit)
+Windows Laptop
+Iphone 11 pro
+Galaxy S20 FE
+Galaxy Flip 3
 
 ### **Testing User Stories**
 
@@ -103,21 +121,19 @@ The predominant colors across the site will be off-white, dark brown, and blue w
 
 #### ***HTML*** - https://validator.w3.org/nu/
 
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/indexhtml-checked.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/indexhtml-checked.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamehtml-checked.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/gamehtml-checked.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
 
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
-
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/csschecked.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/csschecked.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
 
 ### **Lighthouse Scores**
-#### ***Desktop Version:***
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/lighthouseindex.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/lighthouseindex.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/lighthousegame.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/lighthousegame.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
 
-
-#### ***Mobile Version:***
-
-
-
-### **Accessability**
-
-
+## **Jest Testing**
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/Jesttesting.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/raw/main/documentation/Jesttesting.png?raw=true" alt="wireframes" style="max-width: 100%;"></a>
 
 ## **Deployment**
 Deployment
