@@ -1,4 +1,4 @@
-# **Javascript Guessing Game**
+# **JavaScript Guessing Game**
 
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
@@ -22,14 +22,13 @@ A simple but addictive guessing game for Cat and Dog lovers. Simply click on the
     * [**During Development Testing**](#during-development-testing)
     * [**Manual Testing**](#manual-testing)
     * [**Bugs & Fixes**](#bugs-and-fixes)
-    * [**Post Development Testing**](#post-development-testing)
 1. [**Deployment**](#deployment)
 1. [**Future Enhancements**](#future-enhancements)
 1. [**Credits**](#credits)
 
 ## **(UX) User Experience**
 ### **Target Audiences:**
-* The target audience is anyone who is looking to pass a few minutes of time and forget about the stesses of life by playing a simple quiz game. Especially for Cat and Dog lovers!
+* The target audience is anyone who is looking to pass a few minutes of time and forget about the stress of life by playing a simple quiz game. Especially for Cat and Dog lovers!
 ### **Creator Stories:**
 Creator Goals
 
@@ -38,7 +37,6 @@ Creator Goals
 * As a creator, I want the project to be enjoyable and fun to play.
 * As a creator, I want to make sure all content on the page is relatable, from images to text, and avoid elements from feeling random or out of place.
 * As a creator I want to feel they would like to play the game again.
-
 
 ### **User Stories:**
 User goals
@@ -69,18 +67,54 @@ The site will have a home screen with the following:
 
 ### **Colour Scheme**
 To make it easy to see and stick with the animal theme, the game screen itself will be a white background with dark brown text characters.
-The predominant colors across the site will be off-white, dark brown, and blue with cats and dogs as a background.
+The predominant colours across the site will be off-white, dark brown, and blue with cats and dogs as a background.
 
 ### **Typography**
 * Google fonts Raleway
 * Sans-serif
-* The text will be consistent throughout the page and the content of the page  is centered. 
+* The text will be consistent throughout the page and the content of the page is cantered. 
 * Responsive across all devices, to make images scale properly and not end up pixelated, text is readable on all devices.
 
 ### **Technologies Used**
-* HTML
-* CSS
-* Javascript
+
+- [Microsoft Bing](https://www.bing.com/)
+
+Used for image creation.
+- [Chat GPT](https://chat.openai.com/)
+
+Used for Some function creation.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+Used to style web content across the website.
+
+- [JavaScript](https://www.javascript.com/)
+
+Used for game functionality
+
+- [Google Fonts](https://fonts.google.com)
+
+Used to obtain the fonts used throughout the project.
+
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools/)
+
+Used as a primary method of fixing issues, finding bugs, and testing responsiveness across the project.
+
+- [Github](https://github.com/)
+
+Used to store code for the project after being pushed.
+- [Github Desktop](https://desktop.github.com/)
+
+Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [Balsamiq](https://balsamiq.com/)
+
+Used to create the wireframes for the project.
+
+- [Grammarly](https://app.grammarly.com/)
+
+Used to fix grammar errors across the project.
 
 ## **Current Features Common to all pages**
 * Background image
@@ -100,23 +134,51 @@ The predominant colors across the site will be off-white, dark brown, and blue w
 
 ## **Testing Phase**
 ### **During Development Testing**
-
+* Google Chrome Developers Tools
+* Lighthouse
+* W3C Markup Validation Service
+* W3C CSS Validation Service
+* Jest 
 
 
 ### **Manual Testing:**
-Chrome Version 119.0.6045.160 (Official Build) (64-bit)
-Windows Laptop
-Iphone 11 pro
-Galaxy S20 FE
-Galaxy Flip 3
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Opera
+* Windows Laptop
+* iPhone 11 pro
+* Galaxy S20 FE
+* Galaxy Flip 3
+* Galaxy S21 Ultra
 
 ### **Testing User Stories**
-
+As a user, I want to...
+* Play a simple game that can distract me for a few minutes.
+    * The game is full of cute images of cats and dogs.
+* Easily understand the game's controls
+    * The game has a simple set of instructions that can be read and understood in the simplest form possible.
+* Keep track of my high scores.
+    * The game shows an incrementing score for each correct guess.
+* See my score in the top 3 highest scores.
+    * The users will be able to save their score, view the top 3 highest scores at the end of the game.
+* Easily find out any instructions needed to play the game.
+    The instructions are shown on the index page with a button to return to these on the game page.
+* Access and play the game in the quickest way possible.
+    *The index page has a button to start the game.
 
 ### ***Bugs and Fixes:***
+* The Score does not increment when the correct answer is selected.
+    * Used the console to check the code and found that the incrementing of the score was working and guessed correctly but the score was still erratic. Used Chat GPT to generate a new maths function, this displayed the score correctly.
+* The screen does not scale properly on mobile.
+    * Added media query breakpoints to the CSS to fix this.
+* Some scaling issues on the game screen.
+    * changed some scaling to %
+* Buttons nested in anchors.
+    * Removed the buttons from the anchors and placed them in divs.
+* Hover effect stopped working.
+    * Added a hover effect to the divs.
 
-
-### **Post Development Testing**
 #### **Validators**
 
 #### ***HTML*** - https://validator.w3.org/nu/
@@ -165,7 +227,20 @@ Making a Local Clone.
 6. Press Enter to have the local clone created.
 
 ## **Future Enhancements**
-
-
+* Add a timer to the game screen.
+* Use Api to get a random cat or dog image.
 
 ## **Credits**
+* https://www.w3schools.com/
+    * Used for HTML and CSS documentation reference and examples.
+* https://learn.codeinstitute.net/
+    * Used for reference from the many examples shown on the course.
+* https://chat.openai.com/
+    * Used for maths section of the game.
+    * Used to check the format of the code for the game.
+    * used to create function to make the home button disappear.
+* https://www.bing.com/
+    * Used image creator to create all the images for the game.
+
+
+Many thanks to the teachers at the City of Bristol College for their help and support.

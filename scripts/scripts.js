@@ -63,7 +63,7 @@ function makeGuess(guess) {
     return;
   }
 
-  // Maths for random image
+  // Maths for random image and Check guess created with Chat GPT
   const randomIndex = Math.floor(Math.random() * images.length);
   const randomImage = images[randomIndex];
         animalImage.src = randomImage;
@@ -147,7 +147,7 @@ function updateScoreboard() {
 }
 let guessMade = false;
 
-// Function to check if guess has been made and show or hide back button
+// Function to check if guess has been made and show or hide back button created with Chat CPT
 function checkGuessMade() {
   if(!guessMade) {
     document.getElementById("returnButton").style.display = "block";
@@ -156,7 +156,7 @@ function checkGuessMade() {
   }
 }
 
-// Function to check if the device is a mobile device
+// Function to check if the device is a mobile device from the webdev.info website
 function isMobileDevice() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
