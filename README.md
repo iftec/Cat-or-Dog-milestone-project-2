@@ -1,6 +1,6 @@
 # **JavascriptGuessing Game**
 
-
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true" alt="Logo" style="max-width: 100%;"></a></p>
 
 ## **Site Overview**
 A simple but addictive guessing game for Cat and Dog lovers. Simply click on the button to start the game. You will be asked to guess if the next picture to be shown will be a Cat or Dog image. If you make a correct guess you score one point and you can continue the game. If you make an incorrect guess you have the option to enter your name and save your score or restart the game. The top 3 highest scores will be displayed on the high scores page.
