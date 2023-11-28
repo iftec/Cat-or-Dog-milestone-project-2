@@ -139,6 +139,7 @@ Used to fix grammar errors across the project.
 * Cat and Dog buttons for guessing
 * Home button
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gameplaypage.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gameplaypage.png?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
 ## **Testing Phase**
 ### **During Development Testing**
