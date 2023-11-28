@@ -69,12 +69,14 @@ The site will have a home screen with the following:
 ### **Colour Scheme**
 To make it easy to see and stick with the animal theme, the game screen itself will be a white background with dark brown text characters.
 The predominant colours across the site will be off-white, dark brown, and blue with cats and dogs as a background.
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
 ### **Typography**
 * Google fonts Raleway
 * Sans-serif
-* The text will be consistent throughout the page and the content of the page is cantered. 
+* The text will be consistent throughout the page and the content of the page is centered. 
 * Responsive across all devices, to make images scale properly and not end up pixelated, text is readable on all devices.
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/catdog-responsive-views.jpg?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
 ### **Technologies Used**
 
@@ -129,11 +131,14 @@ Used to fix grammar errors across the project.
 * Logo heading along the top
 * Button for 'Start Game'
 * Simple instructions 
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/landingpage.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/landingpage.png?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
+
 ## **Game Screen**
 * Simple instructions
 * Picture of Cat and Dog looking at a laptop screen
 * Cat and Dog buttons for guessing
 * Home button
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true"><img src="https://github.com/iftec/Cat-or-Dog-milestone-project-2/blob/main/documentation/gamepage.png?raw=true" alt="layouts" style="max-width: 100%;"></a></p>
 
 ## **Testing Phase**
 ### **During Development Testing**
